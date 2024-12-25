@@ -1,0 +1,15 @@
+{
+  "name": "ci-wolof",
+  "version": "1.0.0",
+  "description": "Ci Wolof is a browser extension that seamlessly translates any web content into the Wolof language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

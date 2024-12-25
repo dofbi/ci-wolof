@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tekki mbind mi ci wolof</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wolof Translator</h1>
+    <textarea id="selectedText" readonly placeholder="Texte sélectionné"></textarea>
+    <p id="translationResult"></p>
+    <button id="translateBtn">Traduire</button>
+     <select id="apiChoice">
+       <option value="huginface">Huginface</option>
+       <option value="google">Google Translate</option>
+     </select>
+    <script src="popup.js"></script>
+  </body>
+</html>
